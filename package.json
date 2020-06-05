@@ -1,0 +1,27 @@
+{
+    "name": "@laylaalmarwani/create-project",
+    "version": "1.0.0",
+    "description": "A CLI To bootsrap my project",
+    "main": "src/index.js",
+    "bin": {
+        "@laylaalmarwani/create-project": "bin/create-project",
+        "create-project": "bin/create-project"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cli",
+        "create-project"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "arg": "^4.1.3",
+        "esm": "^3.2.25",
+        "inquirer": "^7.1.0"
+    }
+}
